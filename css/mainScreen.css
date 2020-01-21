@@ -1,0 +1,15 @@
+.mainScreen {
+    width: 99.7%;
+    height: 550px;
+    background-color: #DDF3FF;
+    border-top: 1px solid rgba(0, 0, 0, 0.02);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.mainScreen__2 {
+    font-family: 'Sunflower', sans-serif;
+
+    width: 99.5%;
+    height: 550px;
+}
