@@ -5,23 +5,17 @@
 @import 'mainScreen.css';
 @import 'nav-bar.css';
 @import 'more.css';
+@import 'chat-room.css';
+
+@import 'input-bar.css';
+
+
+@import 'settings.css';
 
 * {
     box-sizing: border-box;
 }
 
-.index__container {
-    border-radius: 45px;
-
-    width: 90%;
-    height: 94%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.5px solid black;
-    background-color: #b8b7b738;
-    box-shadow: 0px 0px 3px 0px rgb(114, 114, 114);
-}
 
 
 
@@ -45,3 +39,18 @@ body {
     background-color: #F4F6F9;
 
 }
+
+.index__container {
+    overflow: hidden;
+    border-radius: 45px;
+
+    width: 90%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid black;
+    background-color: #b8b7b738;
+    box-shadow: 0px 0px 3px 0px rgb(114, 114, 114);
+}
+

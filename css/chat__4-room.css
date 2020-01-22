@@ -1,0 +1,7 @@
+.Sendmessage__Friend__receive__left {
+    background-image: url(img/won.jpg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}

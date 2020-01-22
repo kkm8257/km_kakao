@@ -52,7 +52,7 @@
     align-items: center;
     position: relative;
     left: 5px;
-    width: 50%;
+    width: 70%;
 }
 
 .chats__list__chatbox__left__img {
@@ -107,7 +107,7 @@
 
 .chats__list__chatbox__left__user__content {
 
-    font-size: 13px;
+    font-size: 12px;
     opacity: 0.7;
     display: flex;
 }
@@ -129,7 +129,7 @@
 }
 
 .chats__list__chatbox__right {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
 }

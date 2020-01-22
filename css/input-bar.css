@@ -1,0 +1,31 @@
+.Input-bar {
+    transition: all 0.6s ease-in-out;
+}
+
+.Input-bar:focus {
+    animation: light 2s ease-in-out infinite;
+
+    transform: translateY(-100px);
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+@keyframes light {
+    0% {
+        box-shadow: 0px 8px 5px 5px rgba(0, 3, 6, 0.2);
+
+
+    }
+
+    50% {
+        box-shadow: 0px 8px 5px 5px rgba(0, 3, 6, 0.4);
+
+    }
+
+    100% {
+        box-shadow: 0px 8px 5px 5px rgba(0, 3, 6, 0.2);
+
+
+    }
+}

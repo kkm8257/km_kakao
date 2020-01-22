@@ -16,7 +16,6 @@
     position: relative;
     margin-left: 19px;
     font-size: 27px;
-    font-family: "Sunflower", sans-serif;
     text-shadow: 2px 1px 13px gray;
 }
 
@@ -46,7 +45,6 @@
 }
 
 .Find__top {
-    font-family: 'Sunflower', sans-serif;
 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -81,9 +79,14 @@
 }
 
 .Find__bottom__title {
-    font-family: 'Sunflower', sans-serif;
     font-size: 18PX;
     opacity: 0.6;
     margin-left: 20px;
     margin-bottom: 17px;
+}
+
+.plusname {
+    font-size: 15px;
+    opacity: 0.8;
+    font-weight: 700;
 }

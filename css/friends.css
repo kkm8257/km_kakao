@@ -1,4 +1,7 @@
 .Friends-bar {
+
+
+
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 
@@ -18,7 +21,7 @@
     position: relative;
     margin-left: 19px;
     font-size: 27px;
-    font-family: 'Sunflower', sans-serif;
+
     text-shadow: 2px 1px 13px gray;
 }
 
@@ -65,12 +68,12 @@
 
 .friends__List__MyProfile__Box__My {
     position: relative;
-    font-family: 'Sunflower', sans-serif;
+
     left: 20px;
 }
 
 .friends__List__MyProfile__Box__My__Name {
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -93,7 +96,7 @@
 .friends__List__Plusfriend__title {
     margin-left: 10px;
     margin-bottom: 25px;
-    font-family: 'Sunflower', sans-serif;
+
     font-size: 16px;
     opacity: 0.7;
 }
@@ -118,7 +121,7 @@
 }
 
 .friends__List__Plusfriend__Name {
-    font-family: 'Sunflower', sans-serif;
+
     font-size: 18px;
     margin-left: 20px;
 }
@@ -132,7 +135,7 @@
 .friends__List__Friends__title {
     margin-left: 10px;
     margin-bottom: 25px;
-    font-family: 'Sunflower', sans-serif;
+
     font-size: 16px;
     opacity: 0.7;
 }
@@ -175,23 +178,22 @@
 }
 
 .friends__List__Friends__Box__left__Friend__Name {
-    font-family: 'Sunflower', sans-serif;
-    font-size: 18px;
+
+    font-size: 16px;
     margin-left: 20px;
 }
 
 .friends__List__Friends__Box__left__Friend__state {
-    font-family: 'Sunflower', sans-serif;
-    font-size: 13px;
-    margin-left: 20px;
+
+    font-size: 12px;
+    margin-left: 22px;
     opacity: 0.7;
-    margin-top: 5px;
 }
 
 .friends__List__Friends__right {
     margin-right: 3px;
     border: 2px solid #52e084;
-    width: 180px;
+    width: 220px;
     height: 40px;
     line-height: 40px;
     text-align: center;

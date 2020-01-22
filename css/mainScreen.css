@@ -1,4 +1,5 @@
 .mainScreen {
+    animation: appear 1s ease-in-out forwards;
     width: 99.7%;
     height: 550px;
     background-color: #DDF3FF;
@@ -8,8 +9,25 @@
 }
 
 .mainScreen__2 {
-    font-family: 'Sunflower', sans-serif;
+
 
     width: 99.5%;
     height: 550px;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-7px);
+
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
 }
