@@ -152,7 +152,105 @@
 }
 
 .friends__List__Friends {
+    position: relative;
+    z-index: 3;
     width: 100%;
+}
+
+.Hidden__profile {
+    position: absolute;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 136, 219);
+    width: 120px;
+    height: 140px;
+    z-index: 6;
+}
+
+.Hidden__young {
+    top: -120px;
+    left: -300px;
+}
+
+.Hidden__song {
+    top: -120px;
+    left: -300px;
+
+
+}
+
+.Hidden__won {
+    top: -120px;
+    left: -300px;
+
+}
+
+.Hidden__profile__Img__young {
+    margin-bottom: 5px;
+    background-image: url('img/user-1.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.Hidden__profile__Img__song {
+    margin-bottom: 5px;
+    background-image: url('img/song.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.Hidden__profile__Img__won {
+    margin-bottom: 5px;
+    background-image: url('img/won.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.Hidden__profile__Name {
+    margin: 5px 0px;
+    font-size: 18px;
+}
+
+.Hidden__profile__Icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+
+.temp__young:hover .Hidden__young {
+    animation: temp 0.4s ease-in-out forwards;
+}
+
+.temp__song:hover .Hidden__song {
+    animation: temp 0.4s ease-in-out forwards;
+}
+
+.temp__won:hover .Hidden__won {
+    animation: temp 0.4s ease-in-out forwards;
+}
+
+@keyframes temp {
+    0% {
+        transform: translateX(1000px);
+    }
+
+    100% {
+        transform: translateX(270px);
+    }
 }
 
 
@@ -171,6 +269,8 @@
 
 
 .friends__List__Friends__Box {
+
+
     animation: friends__appear__left 1.2s ease forwards;
     width: 100%;
     display: flex;
@@ -196,6 +296,7 @@
 }
 
 .friends__List__Friends__Box__left__Friend {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,6 +304,7 @@
 }
 
 .friends__List__Friends__Box__left__Friend__Name {
+    position: relative;
 
     font-size: 16px;
     margin-left: 20px;

@@ -1,4 +1,6 @@
 .mainScreen {
+    position: relative;
+    z-index: 1;
     animation: appear 1s ease-in-out forwards;
     width: 99.7%;
     height: 550px;
@@ -9,7 +11,8 @@
 }
 
 .mainScreen__2 {
-
+    z-index: 2;
+    position: relative;
 
     width: 99.5%;
     height: 550px;
