@@ -6,7 +6,6 @@
     height: 100px;
     bottom: 0px;
     left: 0px;
-    line-height: 70px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 
@@ -15,4 +14,82 @@
 
 .nav-bar__Icon {
     font-size: 20px;
+}
+
+.nav-bar__Icon:hover {
+    animation: blingbling 1s ease infinite;
+}
+
+@keyframes blingbling {
+
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(-15px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+
+
+    }
+}
+
+.NewComment {
+    display: flex;
+}
+
+.new-message {
+    position: relative;
+    right: 15px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+
+.nowChoice-index {
+    animation: nowChoice 1.4s ease-in-out infinite;
+}
+
+
+.nowChoice-friends {
+    animation: nowChoice 1.4s ease-in-out infinite;
+}
+
+.nowChoice-more {
+    animation: nowChoice 1.4s ease-in-out infinite;
+}
+
+.nowChoice-find {
+    animation: nowChoice 1.4s ease-in-out infinite;
+}
+
+
+@keyframes nowChoice {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-20px);
+
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
 }

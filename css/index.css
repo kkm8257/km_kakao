@@ -18,9 +18,11 @@
     margin-left: 19px;
     font-size: 27px;
     text-shadow: 2px 1px 13px gray;
+    animation: friends__appear__left 0.5s ease forwards;
 }
 
 .chats-bar__Icon {
+    animation: friends__appear__right 0.5s ease forwards;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -46,6 +48,8 @@
     align-items: center;
 }
 
+
+
 .chats__list__chatbox__left {
     display: flex;
     justify-content: flex-start;
@@ -68,30 +72,43 @@
 
 .usernum1 {
     background-image: url('img/user-1.jpg');
+    animation: friends__appear__left 0.5s ease forwards;
 }
 
 .usernum2 {
     background-image: url('img/bae.jpg');
+    animation: friends__appear__left 0.7s ease forwards;
+
 }
 
 .usernum3 {
     background-image: url('img/song.jpg');
+    animation: friends__appear__left 0.8s ease forwards;
+
 }
 
 .usernum4 {
     background-image: url('img/won.jpg');
+    animation: friends__appear__left 1s ease forwards;
+
 }
 
 .usernum5 {
     background-image: url('img/bang.jpg');
+    animation: friends__appear__left 1.2s ease forwards;
+
 }
 
 .usernum6 {
     background-image: url('img/E.jpg');
+    animation: friends__appear__left 1.4s ease forwards;
+
 }
 
 .usernum7 {
     background-image: url('img/hong.jpg');
+    animation: friends__appear__left 1.6s ease forwards;
+
 }
 
 .chats__list__chatbox__left__user {

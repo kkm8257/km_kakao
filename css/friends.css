@@ -1,7 +1,5 @@
 .Friends-bar {
 
-
-
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 
@@ -17,7 +15,30 @@
 
 }
 
+@keyframes friends__appear__left {
+    0% {
+        transform: translateX(-150px);
+    }
+
+    100% {
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes friends__appear__right {
+    0% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(0);
+
+    }
+}
+
 .Friends-bar__title {
+    animation: friends__appear__left 0.5s ease forwards;
     position: relative;
     margin-left: 19px;
     font-size: 27px;
@@ -26,6 +47,7 @@
 }
 
 .Friends-bar__Icon {
+    animation: friends__appear__right 0.5s ease forwards;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -36,6 +58,7 @@
 }
 
 .friends__List__MyProfile {
+    animation: friends__appear__left 0.9s ease forwards;
     width: 100%;
     height: 160px;
     display: flex;
@@ -103,6 +126,7 @@
 
 
 .friends__List__Plusfriend__Box {
+    animation: friends__appear__left 0.9s ease forwards;
     width: 70;
     display: flex;
     align-items: center;
@@ -110,6 +134,7 @@
 }
 
 .friends__List__Plusfriend__Img {
+
     margin-left: 15px;
     background-image: url('img/Mc.jpg');
     width: 40px;
@@ -146,6 +171,7 @@
 
 
 .friends__List__Friends__Box {
+    animation: friends__appear__left 1.2s ease forwards;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -161,7 +187,6 @@
 
 .friends__List__Friends__Box__left__Img {
     margin-left: 15px;
-    background-image: url('img/user-1.jpg');
     width: 40px;
     height: 40px;
     background-size: cover;

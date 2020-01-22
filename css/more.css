@@ -25,6 +25,8 @@
 
 
 .More-bar__title {
+    animation: friends__appear__left 0.5s ease forwards;
+
     position: relative;
     margin-left: 19px;
     font-size: 27px;
@@ -33,6 +35,7 @@
 
 
 .More-bar__Icon {
+    animation: friends__appear__right 0.5s ease forwards;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,6 +60,51 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.More__Icon>.More__Icon__icon:nth-child(1) {
+    animation: More__Icon__appear-1 0.5s ease-in-out forwards;
+}
+
+.More__Icon>.More__Icon__icon:nth-child(2) {
+    animation: More__Icon__appear-2 0.7s ease-in-out forwards;
+}
+
+.More__Icon>.More__Icon__icon:nth-child(3) {
+    animation: More__Icon__appear-3 0.9s ease-in-out forwards;
+}
+
+
+
+
+@keyframes More__Icon__appear-1 {
+    0% {
+        transform: translate(250px, -250px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes More__Icon__appear-2 {
+    0% {
+        transform: translate(160px, -250px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes More__Icon__appear-3 {
+    0% {
+        transform: translate(70px, -250px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
 }
 
 .More__Icon__title {
@@ -94,8 +142,56 @@
 }
 
 .Suggestions__Icon__Icon__title {
+    animation: friends__appear__right 1s ease forwards;
     margin-top: 10px;
 
+}
+
+.Suggestions__Icon__Icon:nth-child(1)>.kakao {
+    animation: Suggestions__Icon__appear-1 .5s ease forwards;
+}
+
+.Suggestions__Icon__Icon:nth-child(2)>.kakao {
+    animation: Suggestions__Icon__appear-2 .7s ease forwards;
+}
+
+.Suggestions__Icon__Icon:nth-child(3)>.kakao {
+    animation: Suggestions__Icon__appear-3 .9s ease forwards;
+}
+
+@keyframes Suggestions__Icon__appear-1 {
+    from {
+        transform: translate(-30px, 100px);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes Suggestions__Icon__appear-2 {
+
+    from {
+        transform: translate(-120px, 100px);
+
+    }
+
+    to {
+        transform: translate(0, 0);
+
+    }
+}
+
+@keyframes Suggestions__Icon__appear-3 {
+    from {
+        transform: translate(-210px, 100px);
+
+    }
+
+    to {
+        transform: translate(0, 0);
+
+    }
 }
 
 .kakao {
@@ -105,4 +201,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cog {
+    animation: For__cog 1s ease-in-out infinite;
+}
+
+@keyframes For__cog {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
+    50% {
+        opacity: 0.4;
+        transform: translateY(-5px);
+
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+
+
+    }
 }
